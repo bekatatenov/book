@@ -1,0 +1,112 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.header {
+    background-color: #5bbc2e;
+}
+
+.NavList {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+}
+
+.UserBtn {
+    color: white;
+    background-color: #479c22;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: right;
+    padding: 7px 18px;
+    text-transform: uppercase;
+}
+
+.carousel-caption {
+    bottom: 90px;
+}
+
+.CarText{
+    color: #5bbc2e;
+    font-size: 4vw;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width:900px){
+    .CarText{
+        font-size: 48px;
+    }
+}
+@media screen and (min-width:700px) and (max-width:900px){
+    
+    .carousel-caption {
+        bottom: 40px;
+    }
+}
+@media screen and (min-width:450px) and (max-width:700px){
+    
+    .carousel-caption {
+        bottom: 20px;
+    }
+}
+@media screen and (max-width:450px){
+
+    .carousel-caption {
+        bottom: 10px;
+    }
+}
+
+.carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 3px solid #479c22;
+    background-color: transparent;
+}
+
+.carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    background-color: #479c22;
+}
+
+.carousel-indicators {
+    padding-bottom: 13px;
+}
+
+.picss {
+    text-align: center;
+}
+
+ul {
+    list-style: url(../images/arrow.png);
+}
+
+.textInBtn {
+    padding: 7px 42px;
+    font-size: 12px;
+    color: white;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.textGrap{
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: #4b4b4b;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.footer{
+    margin-top: 70px;
+    padding: 25px 0 20px 0;
+    background-color: #141414;
+    font-size: 12px;
+    color: #e0e0e0;
+    font-weight: 600;
+    text-transform: uppercase;
+}
