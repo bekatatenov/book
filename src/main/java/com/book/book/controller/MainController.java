@@ -13,8 +13,13 @@ public class MainController {
         return "login";
     }
 
-    @GetMapping("/")
-    public String main(){
-        return "logout";
+    @GetMapping("/registrationPage")
+    public String registerPage(){
+        return "registrationPage";
+    }
+
+    @GetMapping("/resetPage")
+    public String resetPage(){
+        return "resetPage";
     }
 }

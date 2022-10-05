@@ -1,5 +1,6 @@
 package com.book.book.entity;
 
+import com.book.book.enums.Role;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -27,5 +28,6 @@ public class User {
 
     private boolean enabled = true;
 
-    private String role = "USER";
+    @Enumerated(EnumType.STRING)
+    private Role role;
 }
